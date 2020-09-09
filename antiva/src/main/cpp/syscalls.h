@@ -23,6 +23,8 @@ public:
 
     static uid_t wrap_getuid(void);
 
+    static int wrap_getSdkVer(void);
+
 };
 
 

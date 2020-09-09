@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AntiVirtualApp.iml" filepath="$PROJECT_DIR$/AntiVirtualApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/antiva/AntiVirtualApp-antiva.iml" filepath="$PROJECT_DIR$/antiva/AntiVirtualApp-antiva.iml" group="AntiVirtualApp/antiva" />
+      <module fileurl="file://$PROJECT_DIR$/app/AntiVirtualApp-app.iml" filepath="$PROJECT_DIR$/app/AntiVirtualApp-app.iml" group="AntiVirtualApp/app" />
       <module fileurl="file://$PROJECT_DIR$/VADetect.iml" filepath="$PROJECT_DIR$/VADetect.iml" />
       <module fileurl="file://$PROJECT_DIR$/antiva/antiva.iml" filepath="$PROJECT_DIR$/antiva/antiva.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/git-AntiVirtualApp.iml" filepath="$PROJECT_DIR$/git-AntiVirtualApp.iml" group="AntiVirtualApp" />
     </modules>
   </component>
 </project>

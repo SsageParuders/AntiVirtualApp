@@ -26,10 +26,18 @@ int Sys::wrap_close(int fd) {
 
 uid_t Sys::wrap_getuid(void) {
     uid_t ret;
-#if defined(__arm__)|| defined(__i386__)
+#if defined(__arm__) || defined(__i386__)
     ret = (uid_t) syscall(__NR_getuid32);
 #else
     ret = (uid_t) syscall(__NR_getuid);
 #endif
     return ret;
+}
+
+int Sys::wrap_getSdkVer(void) {
+    char *key = (char *) "ro.build.version.sdk";
+    char value[128] = {0};
+    __system_property_get(key, value);
+    int sdk_ver = atoi(value);
+    return sdk_ver;
 }

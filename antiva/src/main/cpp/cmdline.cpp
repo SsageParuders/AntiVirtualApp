@@ -5,6 +5,7 @@
 #include <string.h>
 #include <fcntl.h>
 #include <stdio.h>
+#include <cstdlib>
 #include "cmdline.h"
 #include "syscalls.h"
 
