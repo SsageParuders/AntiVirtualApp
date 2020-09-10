@@ -8,7 +8,7 @@
 using namespace std;
 
 #define RO_BUILD_VER_SDK_11 30
-#define PATTERN_FIRST_LEVEL_DIR_NAME "~~.([a-zA-Z0-9-_]*.==/)"
+#define PATTERN_FIRST_LEVEL_DIR_NAME "^~~[a-zA-Z0-9-_]+(={0,2})/"
 
 #define SO_APP_LIB "/data/app-lib/"
 #define SO_APP_LIB_LEN strlen(SO_APP_LIB)
